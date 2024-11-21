@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Корзина</title>
+</head>
+
+<body>
+  <!-- навигация -->
+  <div class="top-nav">
+    <div class="container d-flex">
+      <p>Закажите онлайн или позвоните нам: 8 920 654 32 56</p>
+      <ul class="d-flex">
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="navigation">
+    <div class="nav-center container d-flex">
+      <a href="index.html" class="logo">
+        <h1><img src="./images/logo.svg" alt="" height='50'></h1>
+      </a>
+
+      <ul class="nav-list d-flex">
+        <li class="nav-item">
+          <a href="/" class="nav-link">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a href="product.html" class="nav-link">Магазин</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Контакты</a>
+        </li>
+        <li class="icons d-flex">
+          <a href="login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart"></i>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class="bx bx-cart"></i>
+          </a>
+        </li>
+      </ul>
+
+      <div class="icons d-flex">
+        <a href="login.html" class="icon">
+          <i class="bx bx-user"></i>
+        </a>
+        <div class="icon">
+          <i class="bx bx-search"></i>
+        </div>
+        <div class="icon">
+          <i class="bx bx-heart"></i>
+        </div>
+        <a href="cart.html" class="icon">
+          <i class="bx bx-cart"></i>
+        </a>
+      </div>
+
+      <div class="hamburger">
+        <i class="bx bx-menu-alt-left"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- товар -->
+  <div class="container cart">
+    <table>
+      <tr>
+        <th>Продукт</th>
+        <th>Количество</th>
+        <th>Цена</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/1.jpg" alt="" />
+            <div>
+              <p>Угги</p>
+              <a href="#">Удалить</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>4150</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/16.jpg" alt="" />
+            <div>
+              <p>Туфли</p>
+              <a href="#">Удалить</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>3100</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/20.jpg" alt="" />
+            <div>
+              <p>BeauToday</p>
+              <a href="#">Удалить</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>3800</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/8.jpg" alt="" />
+            <div>
+              <p>New balance 2002R</p>
+              <a href="#">Удалить</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>7350</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/19.jpg" alt="" />
+            <div>
+              <p>Массивные туфли на шнуровке</p>
+              <a href="#">Удалить</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>4200</td>
+      </tr>
+    </table>
+    <div class="total-price">
+      <table>
+        <tr>
+          <td>Итого</td>
+          <td>22600</td>
+        </tr>
+      </table>
+      <a href="#" class="checkout btn">Оформить заказ</a>
+    </div>
+  </div>
+
+  <!-- последние просмотренные товары -->
+  <section class="section featured">
+    <div class="top container">
+      <h1>Последние просмотренные товары</h1>
+      <a href="#" class="view-more">Посмотреть больше</a>
+    </div>
+    <div class="product-center container">
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/2.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Зимняя обувь</span>
+          <a href="">Мужские ботинки</a>
+          <h4>3900</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/19.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Мужская обувь</span>
+          <a href="">Массивные туфли на шнуровке</a>
+          <h4>4200</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/22.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Мужские кроссовки</span>
+          <a href="">New Balance 55</a>
+          <h4>5700</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/23.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Кроссовки</span>
+          <a href="">Adidas astir</a>
+          <h4>4800</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- футер -->
+  <footer class="footer">
+    <div class="row">
+      <div class="col d-flex">
+        <h4>ИНФОРМАЦИЯ</h4>
+        <a href="">О нас</a>
+        <a href="">Связаться с нами</a>
+      </div>
+      <div class="col d-flex">
+        <h4>ССЫЛКИ</h4>
+        <a href="">Правила</a>
+        <a href="">Руководство по доставке</a>
+      </div>
+      <div class="col d-flex">
+        <span><i class='bx bxl-instagram-alt'></i></span>
+        <span><i class='bx bxl-github'></i></span>
+        <span><i class='bx bxl-twitter'></i></span>
+        <span><i class='bx bxl-pinterest'></i></span>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
